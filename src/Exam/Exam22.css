@@ -1,0 +1,42 @@
+* {
+
+    font-family: "Malgun Gothic";
+    border-radius: 15px;
+}
+
+
+#headerId{
+    background-color: darkgrey;
+    color: white;
+
+}
+
+#navbarId{
+    background-color: gainsboro;
+    color: black;
+}
+
+#sectionId{
+    background-color: #f8f9fa;
+    color:black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#footerId{
+    background-color: silver;
+    color: black;
+}
+
+#erklärungId{
+    font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    #navbarId{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
